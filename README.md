@@ -1,5 +1,7 @@
 # CMMF to Mermaid Renderer
 
+Canonical repository: [cmmf-project/cmmf-to-mermaid-renderer](https://github.com/cmmf-project/cmmf-to-mermaid-renderer).
+
 CLI and library for generating Mermaid diagrams from [Content Model Master Format (CMMF)](/Users/djeglin/Projects/HeadlessCo/content-model-master-format/README.md) repositories.
 
 This project reads a CMMF repo, validates it against the neighbouring CMMF spec repository, builds an internal model graph, and renders Mermaid output that is useful for documentation, review, and architecture conversations.
