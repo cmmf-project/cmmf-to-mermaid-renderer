@@ -8,7 +8,7 @@ import { pathExists } from "../utils/fs.js";
 const execFileAsync = promisify(execFile);
 const packageRoot = path.resolve(fileURLToPath(new URL("../../", import.meta.url)));
 const defaultSiblingRepo = path.resolve(packageRoot, "../content-model-master-format");
-const expectedRemote = "https://github.com/headless-company/content-model-master-format";
+const expectedRemote = "https://github.com/cmmf-project/content-model-master-format";
 
 export async function resolveCmmfSource(explicitPath?: string): Promise<CmmfSource> {
   const candidates = [explicitPath, process.env.CMMF_SPEC_REPO_PATH, defaultSiblingRepo].filter(

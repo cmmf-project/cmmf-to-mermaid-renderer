@@ -31,4 +31,4 @@ npm install --prefix .tmp/mermaid-tools --no-audit --no-fund mermaid@11.12.0
 node scripts/render-flowchart-preview.mjs
 ```
 
-Related investigation: [issue #1](https://github.com/headless-company/cmmf-to-mermaid-renderer/issues/1). This is an evaluation artifact, not a completed fix for that issue.
+Related investigation: [issue #1](https://github.com/cmmf-project/cmmf-to-mermaid-renderer/issues/1). This is an evaluation artifact, not a completed fix for that issue.
